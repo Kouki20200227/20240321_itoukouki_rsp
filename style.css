@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+
+.header{
+    position: relative;
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+}
+.logo{
+    margin: 15px 0 0 30px;
+    width: 10%;
+}
+.logo-card{
+    width: 100%;
+}
+.right-ttl{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 30px auto 0;
+}
+.right-ttl li{
+    list-style: none;
+    margin-left: 20px;
+}
+.right-ttl a{
+    text-decoration: none;
+    color: rgb(145, 143, 143);
+}
+
+
+
+.header-content{
+    position: relative;
+    top: 50px;
+}
+
+.head-block{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    padding-left: 30px;
+}
+.head-text{
+    font-size: 55px;
+    font-weight: 400;
+    color: rgb(240, 102, 125);
+    z-index: 20;
+    line-height: 1.5;
+}
+.text-pickup{
+    color: rgb(39, 184, 242);
+}
+.head-subttl{
+    margin-top: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(240, 102, 125);
+    z-index: 0;
+}
+.head-subtext{
+    color: rgb(145, 143, 143);
+}
+.pic-outer{
+    float: right;
+    width: 60%;
+}
+.head-pic{
+    margin: 0 0 0 auto;
+    width: 100%;
+    z-index: 10;
+    height: 500px;
+}
+
+
+
+.head-inner{
+    position: relative;
+    top: 600px;
+}
+
+
+
+
+.main{
+    position: relative;
+    top: 1200px;
+}
+
+.footer{
+    position: relative;
+    top: 1800px;
+}
+
