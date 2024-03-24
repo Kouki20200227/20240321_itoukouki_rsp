@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+header{
+    width: 100%;
+}
 .title{
     display: flex;
     justify-content: space-between;
@@ -35,16 +38,17 @@
     margin-bottom: 100px;
 }
 .head-block{
-    margin-top: 100px;
-    margin-left: 300px;
     padding-left: 30px;
+    position: relative;
+    top: 50px;
+    left: 300px;
 }
 .head-text{
     font-size: 55px;
     font-weight: 400;
     color: rgb(240, 102, 125);
     z-index: 20;
-    line-height: 1.5;
+    line-height: 2;
 }
 .text-pickup{
     color: rgb(39, 184, 242);
@@ -68,7 +72,7 @@
     margin: 0 0 0 auto;
     width: 100%;
     z-index: 10;
-    height: 500px;
+    height: 600px;
 }
 
 
@@ -164,12 +168,10 @@ main{
 
 .service-outer{
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 300px;
 }
 .service-content{
     position: relative;
+    top: 50px;
     left: 25%;
 }
 .more2{
@@ -191,6 +193,7 @@ main{
     background-image: url("img/service__first.svg");
     background-color: rgb(193, 58, 103);
     text-align: left;
+    color: white;
 }
 .box1-ttl{
     display: inline-block;
