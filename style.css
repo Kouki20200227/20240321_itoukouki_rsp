@@ -49,6 +49,7 @@ header{
     color: rgb(240, 102, 125);
     z-index: 20;
     line-height: 2;
+    font-family: "Gorditas", cursive;
 }
 .text-pickup{
     color: rgb(39, 184, 242);
@@ -83,6 +84,8 @@ header{
 }
 .note1{
     color: palevioletred;
+    font-family: "Gorditas", cursive;
+
 }
 .note2{
     font-size: 20px;
@@ -118,12 +121,12 @@ header{
 }
 
 main{
-    margin-top: 70px;
+    width: 100%;
 }
 
 
 .about-content{
-    width: 100%;
+    margin-top: 70px;
     text-align: center;
     overflow: hidden;
     background-color: rgb(227, 226, 226);
@@ -132,6 +135,7 @@ main{
 .more1{
     color: palevioletred;
     margin: 10px 0; 
+    font-family: "Gorditas", cursive;
 }
 .about-ttl{
     font-weight: bold;
@@ -170,12 +174,13 @@ main{
     width: 100%;
 }
 .service-content{
-    position: relative;
-    top: 50px;
-    left: 25%;
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-bottom: 50px;
 }
 .more2{
     color: palevioletred;
+    font-family: "Gorditas", cursive;
 }
 .service-ttl{
     font-size: 20px;
@@ -190,28 +195,67 @@ main{
 .box1{
     grid-column: 1/2;
     grid-row: 1/3;
-    background-image: url("img/service__first.svg");
     background-color: rgb(193, 58, 103);
     text-align: left;
     color: white;
 }
+.box1-img{
+    margin-top: 30px;
+    width: 100%;
+    height: 50%;
+}
 .box1-ttl{
-    display: inline-block;
-    margin: 100px auto;
+    text-align: center;
+}
+.box1-text{
+    text-align: left;
+    padding: 0 20px;
 }
 .box2{
     grid-column: 2/3;
     grid-row: 1/2;
-    background-image: url("img/service__first.svg");
     background-color: palevioletred;
     place-content: right;
+}
+.box2-img{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 30%;
+}
+.box2-card{
+    margin-top: 60px;
+    margin-right: 10px;
+    float: right;
+}
+.box2-ttl{
+    color: white;    
+}
+.box2-text{
+    font-size: 15px;
+    color: white;
 }
 .box3{
     grid-column: 2/3;
     grid-row: 2/3;
-    background-image: url("img/service__first.svg");
     background-color: pink;
     align-items: right;
+}
+.box3-img{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 30%;
+}
+.box3-card{
+    margin-top: 60px;
+    margin-right: 10px;
+    float: right;
+}
+.box3-ttl{
+    color: white;
+}
+.box3-text{
+    color: white;
+    font-size: 15px;
 }
 
 
@@ -230,6 +274,7 @@ main{
 .more3{
     margin: 10px 0;
     color: palevioletred;
+    font-family: "Gorditas", cursive;
 }
 .blog-ttl{
     margin-bottom: 30px;
@@ -308,6 +353,7 @@ main{
     font-size: 10px;
     margin-top: 50px;
     color: palevioletred;
+    font-family: "Gorditas", cursive;
 }
 .footer-ttl{
     font-weight: bold;
@@ -382,12 +428,11 @@ main{
     color: rgb(196, 46, 96);
     font-size: 30px;
 }
-.info-button::before{
-
-}
 .info-button{
+    position: relative;
     color: white;
-    padding: 15px 50px;
+    padding: 20px 60px 20px 70px;
+    font-size: 15px;
     background: linear-gradient(90deg ,rgb(255, 110, 134),rgb(231, 33, 112));
     margin: 10px 0 30px 0;
     border-radius: 30px;
@@ -395,4 +440,15 @@ main{
     display: inline-block;
     box-shadow: 2px 6px 4px rgb(91, 19, 31);
 }
-
+.info-button::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    background: url(img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+}
