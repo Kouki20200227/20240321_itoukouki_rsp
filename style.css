@@ -38,10 +38,7 @@ header{
     margin-bottom: 100px;
 }
 .head-block{
-    padding-left: 30px;
-    position: relative;
-    top: 50px;
-    left: 300px;
+    margin-left: 22%;
 }
 .head-text{
     font-size: 55px;
@@ -66,14 +63,11 @@ header{
 }
 .pic-outer{
     float: right;
-    margin-top: -400px;
+    margin-top: -450px;
     width: 60%;
 }
 .head-pic{
-    margin: 0 0 0 auto;
     width: 100%;
-    z-index: 10;
-    height: 600px;
 }
 
 
@@ -148,20 +142,19 @@ main{
     overflow: hidden;
     margin: 30px auto;
     width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 .about-block{
     text-align: left;
     font-size: 13px;
     color: rgb(145, 145, 145);
-    float: left;
 }
 .about-text{
     margin-bottom: 20px;
 }
 .about-card{
-    float: right;
     width: 300px;
-    height: 200px;
 }
 .about-card img{
     width: 100%;
@@ -171,23 +164,26 @@ main{
 
 
 .service-outer{
-    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.service-content{
-    padding-top: 50px;
-    padding-left: 350px;
-    padding-bottom: 50px;
-}
+/* .service-content{
+
+} */
 .more2{
     color: palevioletred;
     font-family: "Gorditas", cursive;
+    margin-left: 25%;
 }
 .service-ttl{
+    margin-left: 25%;
     font-size: 20px;
     font-weight: bold;
     color: rgb(145, 145, 145);
 }
 .service-layout{
+    width: 50%;
+    margin: 0 auto;
     display: grid;
     grid-template-rows: 200px 200px;
     grid-template-columns: 400px 400px;
@@ -263,35 +259,31 @@ main{
 
 
 .blog-content{
-    width: 100%;
     background-color: rgb(227, 226, 226);
     overflow: hidden;
 }
-.blog-outer{
-    position: relative;
-    left: 20%;
-}
 .more3{
     margin: 10px 0;
+    margin-left: 15%;
     color: palevioletred;
     font-family: "Gorditas", cursive;
 }
 .blog-ttl{
     margin-bottom: 30px;
+    margin-left: 15%;
     font-size: 20px;
     font-weight: bold;
 }
 .blog-block{
-    position: relative;
-    width: 60%;
+    margin: 0px auto;
+    width: 70%;
     display: flex;
     justify-content: space-between;
 }
 .unit{
+    width: 30%;
     position: relative;
     border-radius: 20px;
-    width: 260px;
-    height: 300px;
     background-color:white;
 }
 .photo{
@@ -303,6 +295,7 @@ main{
     position: absolute;
     top: 0;
     left: 0;
+    float: left;
     border-top-left-radius: 20px;
     padding: 5px 25px;
     background-color: rgb(216, 45, 102);
@@ -345,23 +338,27 @@ main{
     overflow: hidden;
 }
 .footer-block{
-    position: relative;
-    left: 25%;
+    /* position: relative;
+    left: 25%; */
     margin-bottom: 70px;
 }
 .footer-more{
     font-size: 10px;
     margin-top: 50px;
+    margin-left: 27%;
     color: palevioletred;
     font-family: "Gorditas", cursive;
 }
 .footer-ttl{
     font-weight: bold;
     font-size: 20px;
+    margin-left: 27%;
+    margin-bottom: 30px;
 }
 .outer{
     text-align: left;
-    margin-top: 30px;
+    margin:0 auto;
+    border-spacing: 0;
 }
 .outer th,td{
     border: solid 2px rgb(200, 200, 200);
