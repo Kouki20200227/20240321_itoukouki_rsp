@@ -35,13 +35,14 @@ header{
 
 .header-content{
     overflow: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 5vw;
 }
 .head-block{
     margin-left: 22%;
+    margin-top: 2vw;
 }
 .head-text{
-    font-size: 55px;
+    font-size: 3.5vw;
     font-weight: 400;
     color: rgb(240, 102, 125);
     z-index: 20;
@@ -53,17 +54,18 @@ header{
 }
 .head-subttl{
     margin-top: 60px;
-    font-size: 22px;
+    font-size: 1.4vw;
     font-weight: bold;
     color: rgb(240, 102, 125);
     z-index: 0;
 }
 .head-subtext{
     color: rgb(145, 143, 143);
+    font-size: 1vw;
 }
 .pic-outer{
     float: right;
-    margin-top: -450px;
+    margin-top: -35vw;
     width: 60%;
 }
 .head-pic{
@@ -79,21 +81,23 @@ header{
 .note1{
     color: palevioletred;
     font-family: "Gorditas", cursive;
+    margin-bottom: 10px;
+    font-size: 1vw;
 
 }
 .note2{
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: bold;
     color: rgb(100, 100, 100);
 }
 .inner-area{
-    position: relative;
-    left: 400px;
+    width: 40%;
+    margin: 20px auto;
 }
 .inner-group{
     display: flex;
     flex-direction: column;
-    width: 45vw;
+    width: 100%;
     margin-top: 10px;
     padding: 20px 0;
     border-top: solid 2px rgb(160, 160, 160);
@@ -102,7 +106,7 @@ header{
 .content{
     text-decoration: none;
     padding: 10px 0;
-    font-size: 15px;
+    font-size: 1vw;
     color: rgb(145, 143, 143);
     border-bottom: solid 1px rgb(160, 160, 160);
 }
@@ -130,6 +134,7 @@ main{
     color: palevioletred;
     margin: 10px 0; 
     font-family: "Gorditas", cursive;
+    margin-bottom: 2vw;
 }
 .about-ttl{
     font-weight: bold;
@@ -147,14 +152,15 @@ main{
 }
 .about-block{
     text-align: left;
-    font-size: 13px;
+    font-size: 1.5vw;
+    width: 45%;
     color: rgb(145, 145, 145);
 }
 .about-text{
     margin-bottom: 20px;
 }
 .about-card{
-    width: 300px;
+    width: 45%;
 }
 .about-card img{
     width: 100%;
@@ -163,30 +169,26 @@ main{
 
 
 
-.service-outer{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.service-content{
+    margin: 5vw auto;
+    width: 70%;
 }
-/* .service-content{
-
-} */
 .more2{
     color: palevioletred;
     font-family: "Gorditas", cursive;
-    margin-left: 25%;
+    font-size: 1vw;
+    margin-bottom: 1vw;
 }
 .service-ttl{
-    margin-left: 25%;
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: bold;
     color: rgb(145, 145, 145);
+    margin-bottom: 1vw;
 }
 .service-layout{
-    width: 50%;
-    margin: 0 auto;
     display: grid;
-    grid-template-rows: 200px 200px;
-    grid-template-columns: 400px 400px;
+    grid-template-rows: 40% 40%;
+    grid-template-columns: 50% 50%;
 }
 .box1{
     grid-column: 1/2;
@@ -196,7 +198,7 @@ main{
     color: white;
 }
 .box1-img{
-    margin-top: 30px;
+    margin-top: 5vw;
     width: 100%;
     height: 50%;
 }
@@ -205,29 +207,32 @@ main{
 }
 .box1-text{
     text-align: left;
-    padding: 0 20px;
+    padding: 0 5vw;
+    font-size: 1vw;
 }
 .box2{
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: palevioletred;
     place-content: right;
+    display: flex;
+    flex-direction: row;
 }
 .box2-img{
-    margin-top: 50px;
-    margin-left: 10px;
+    margin-top: 7vw;
+    margin-left: 2vw;
     width: 30%;
 }
 .box2-card{
-    margin-top: 60px;
-    margin-right: 10px;
-    float: right;
+    margin-top: 7vw;
+    margin-left: 1vw;
 }
 .box2-ttl{
     color: white;    
 }
 .box2-text{
-    font-size: 15px;
+    margin-top: 1vw;
+    font-size: 1vw;
     color: white;
 }
 .box3{
@@ -235,6 +240,8 @@ main{
     grid-row: 2/3;
     background-color: pink;
     align-items: right;
+    display: flex;
+    flex-direction: row;
 }
 .box3-img{
     margin-top: 50px;
@@ -242,16 +249,16 @@ main{
     width: 30%;
 }
 .box3-card{
-    margin-top: 60px;
-    margin-right: 10px;
-    float: right;
+    margin-top: 7vw;
+    margin-right: 2vw;
 }
 .box3-ttl{
     color: white;
 }
 .box3-text{
+    margin-top: 1vw;
     color: white;
-    font-size: 15px;
+    font-size: 1vw;
 }
 
 
@@ -262,16 +269,21 @@ main{
     background-color: rgb(227, 226, 226);
     overflow: hidden;
 }
+.blog-outer{
+    width: 70%;
+    margin: 2vw auto;
+}
 .more3{
-    margin: 10px 0;
-    margin-left: 15%;
+     margin-left: 15%;
+     margin-bottom: 1vw;
+     font-size: 1vw;
     color: palevioletred;
     font-family: "Gorditas", cursive;
 }
 .blog-ttl{
     margin-bottom: 30px;
     margin-left: 15%;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 .blog-block{
@@ -300,9 +312,11 @@ main{
     padding: 5px 25px;
     background-color: rgb(216, 45, 102);
     color: white;
+    font-size: 1vw;
 }
 .tag-group{
     width: 100%;
+    font-size: 0.8vw;
 }
 .unit-text{
     color: rgb(100, 99, 99);
@@ -318,6 +332,7 @@ main{
     float: right;
     color: rgb(145, 145, 145);
     margin-right: 15px;
+    margin-bottom: 1vw;
 }
 .detail-content{
     text-align: center;
@@ -338,14 +353,13 @@ main{
     overflow: hidden;
 }
 .footer-block{
-    /* position: relative;
-    left: 25%; */
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
+    margin: 4vw auto;
 }
 .footer-more{
-    font-size: 10px;
-    margin-top: 50px;
+    font-size: 0.7vw;
     margin-left: 27%;
+    margin-bottom: 1vw;
     color: palevioletred;
     font-family: "Gorditas", cursive;
 }
@@ -367,12 +381,12 @@ main{
 }
 .outer th{
     background-color: rgb(240, 240, 240);
-    width: 200px;
-    padding: 10px 0;
+    width: 15vw;
+    padding: 1vw 0;
 }
 .outer td{
-    width: 500px;
-    padding: 10px 0;
+    width: 30vw;
+    padding: 1vw 0;
 }
 
 .footer-pic{
@@ -393,7 +407,7 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: bold;
 }
 .footer-right{
@@ -410,7 +424,7 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: bold;
 }
 .customer{
